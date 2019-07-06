@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,body,#app{
+  height:100%;
+  overflow: hidden;
+  width:100%;
+  min-width:1340px;
+}
+.common-small-length{
+  width:180px;
+}
+.common-length{
+  width:240px;
+}
+.common-long-length{
+  width:420px;
+}
+.common-line-height{
+  line-height: 32px;
+}
+.common-row-space{
+  width:100%;
+  margin:12px 0;
+}
+.common-pagination{
+  text-align: right;
+  margin-top: 20px;
+}
+.common-search-text{
+  display: inline-block;
+  line-height: 32px;
+  margin-right: 5px;
+}
+.common-search-ipt{
+  margin-right: 20px;
+}
+input,.el-input__inner{
+  background-color: transparent;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.pointer{
+  cursor: pointer;
+}
+.text-r{
+  text-align: right;
+}
+/*公共左右侧布局*/
+.index-left {
+  width:240px;height:100%;
+  float:left;
+}
+.index-right{
+  height:100%;
+  margin-left: 239px;
+}
+.index-right-section{
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: #F2F3F4;
+  box-sizing: border-box;
+  padding-bottom: 64px;
+}
+.section-content{
+  padding: 16px 24px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  min-height: 100%;
+}
+.common-marker{
+  width:3px;
+  height:30px;
+  background: rgb(255, 208, 75);
+  margin-right: 10px;
+}
+.section-content-top{
+  width:100%;
+  height:36px;
+  line-height: 30px;
+}
