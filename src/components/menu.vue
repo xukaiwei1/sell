@@ -20,6 +20,7 @@
           <el-menu-item-group>
             <el-menu-item index="1-1">创建商品</el-menu-item>
             <el-menu-item index="1-2">商品列表</el-menu-item>
+            <el-menu-item index="1-3">商品类型</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
         <el-submenu index="2">
@@ -64,6 +65,9 @@ export default {
           break
         case '1-2':
           this.$router.push('/product-list')
+          break
+         case '1-3':
+          this.$router.push('/product-type')
           break
         case '2-1':
           this.$router.push('/order-list')

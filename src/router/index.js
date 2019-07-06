@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '@/pages/login'
 import Index from '@/pages/productManagement/index'
 import ProductList from '@/pages/productManagement/productList'
+import ProductType from '@/pages/productManagement/ProductType'
 import OrderList from '@/pages/orderManagement/orderList'
 import UserList from '@/pages/userManagement/userList'
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/product-list',
       name: 'ProductList',
       component: ProductList
+    },
+    {
+      path: '/product-type',
+      name: 'ProductType',
+      component: ProductType
     },
     {
       path: '/order-list',
